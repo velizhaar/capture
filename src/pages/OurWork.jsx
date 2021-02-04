@@ -14,11 +14,14 @@ import {
   lineAnim,
   slider,
 } from "../animation";
+import { useScroll } from "../components/useScroll";
 
 const OurWork = () => {
+  // const [element, controls] = useScroll();
+  // const [element2, controls2] = useScroll();
   return (
     <Work
-      style={{ background: "#fff" }}
+      style={{ background: "#1b1b1b" }}
       variants={pageAnimation}
       initial="hidden"
       animate="show"
@@ -39,16 +42,17 @@ const OurWork = () => {
           </Hide>
         </Link>
       </Movie>
+      {/* <Movie ref={element} variants={fade} animate={controls} initial="hidden"> */}
       <Movie>
         <h2>The Racer</h2>
-        <div className="line"></div>
+        <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
-        <div className="line"></div>
+        <motion.div variants={lineAnim} className="line"></motion.div>
         <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
@@ -62,6 +66,7 @@ const Work = styled(motion.div)`
   overflow: hidden;
   padding: 5rem 10rem;
   h2 {
+    color: white;
     padding: 1rem 0rem;
   }
 `;
