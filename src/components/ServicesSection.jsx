@@ -71,6 +71,7 @@ const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
   @media (max-width: 560px) {
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
     justify-content: center;
   }
 `;
