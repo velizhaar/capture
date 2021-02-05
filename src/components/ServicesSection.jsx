@@ -68,10 +68,10 @@ const Services = styled(About)`
 `;
 // bikin icon jadi 2 2 (rapi)
 const Cards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   @media (max-width: 560px) {
-    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-content: center;
   }
 `;
