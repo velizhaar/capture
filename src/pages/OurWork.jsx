@@ -90,8 +90,6 @@ const Hide = styled.div`
   overflow: hidden;
 `;
 
-export default OurWork;
-
 // Frame Animation
 const Frame1 = styled(motion.div)`
   position: fixed;
@@ -111,3 +109,5 @@ const Frame3 = styled(Frame1)`
 const Frame4 = styled(Frame1)`
   background: #8effa0;
 `;
+
+export default OurWork;

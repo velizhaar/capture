@@ -47,7 +47,7 @@ const ContactStyle = styled(motion.div)`
   color: #353535;
   min-height: 90vh;
   @media (max-width: 560px) {
-    padding: 2rem;
+    padding: 3rem 2rem;
     font-size: 1rem;
   }
 `;
@@ -72,6 +72,7 @@ const Social = styled(motion.div)`
   align-items: center;
   h2 {
     margin: 2rem;
+    font-size: 2.5rem;
   }
 `;
 export default ContactUs;

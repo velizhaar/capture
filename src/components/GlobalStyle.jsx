@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}    
 html{
     @media (max-width: 560px) {
         font-size: 70%;
@@ -30,7 +31,7 @@ button{
         color: white
     }    
 }
-h2{
+    h2{
         font-weight: lighter;
         font-size: 4rem;
     }

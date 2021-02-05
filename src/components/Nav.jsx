@@ -74,14 +74,18 @@ const StyledNav = styled.nav`
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    li {
-      padding-left: 10rem;
-      position: relative;
-    }
+  }
+  li {
+    padding-left: 10rem;
+    position: relative;
   }
   @media (max-width: 560px) {
     flex-direction: column;
     padding: 2rem 0rem 0.5rem;
+    #logo {
+      display: inline-block;
+      margin: 1rem;
+    }
 
     ul {
       padding: 2rem;
