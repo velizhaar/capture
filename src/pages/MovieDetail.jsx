@@ -76,6 +76,7 @@ const Awards = styled.div`
   @media (max-width: 560px) {
     display: column;
     margin: 2rem 2rem;
+    font-size: 1rem;
   }
 `;
 
