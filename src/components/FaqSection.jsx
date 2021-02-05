@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { About } from "../styles";
 import Toggle from "./Toggle";
 import { useScroll } from "./useScroll";
-import { scrollReveal } from "../animation";
+
 import { fade } from "../animation";
 
 import { AnimateSharedLayout } from "framer-motion";

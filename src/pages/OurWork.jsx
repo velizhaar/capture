@@ -14,7 +14,6 @@ import {
   lineAnim,
   slider,
 } from "../animation";
-import { useScroll } from "../components/useScroll";
 
 const OurWork = () => {
   // const [element, controls] = useScroll();
